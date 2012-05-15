@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizroom Hacker", "Quizroom Hacker\Quizroom Hacker.csproj", "{984DE452-EDA8-429E-B9A3-6F58781212A1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookInjEx_DLL", "HookDll\HookInjEx_DLL.vcproj", "{CD84B7E9-17B0-4D75-A33C-59E7A2686B90}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{984DE452-EDA8-429E-B9A3-6F58781212A1}.Debug.ActiveCfg = Debug|.NET
+		{984DE452-EDA8-429E-B9A3-6F58781212A1}.Debug.Build.0 = Debug|.NET
+		{984DE452-EDA8-429E-B9A3-6F58781212A1}.Release.ActiveCfg = Release|.NET
+		{984DE452-EDA8-429E-B9A3-6F58781212A1}.Release.Build.0 = Release|.NET
+		{CD84B7E9-17B0-4D75-A33C-59E7A2686B90}.Debug.ActiveCfg = Debug|Win32
+		{CD84B7E9-17B0-4D75-A33C-59E7A2686B90}.Debug.Build.0 = Debug|Win32
+		{CD84B7E9-17B0-4D75-A33C-59E7A2686B90}.Release.ActiveCfg = Release|Win32
+		{CD84B7E9-17B0-4D75-A33C-59E7A2686B90}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
